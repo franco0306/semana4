@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
 
 const Aside = () => {
     return (
@@ -55,7 +56,7 @@ const Aside = () => {
                     </div>
                 </div>
                 <div className="col-12">
-                    <button type="submit" className="btn btn-primary">Registrar</button>
+                    <Button variant="primary" type="submit">Registrar</Button>
                 </div>
             </form>
         </aside>
