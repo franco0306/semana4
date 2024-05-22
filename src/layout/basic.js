@@ -8,9 +8,9 @@ const Basic = () => {
         <>
             <StrictMode>
                 <Header />
-                <div className="container">
+                <div className="container-fluid" style={{ backgroundColor: '#F5F1ED' }}> {/* Cambiando el color de fondo a #E5FCFF */}
                     <div className="row py-5">
-                        <Outlet></Outlet>
+                        <Outlet />
                     </div>
                 </div>
                 <Footer />

@@ -27,7 +27,8 @@ const router = createBrowserRouter([
                             <Message></Message>
                         </div>
                         <div className="col-md-3">
-                            <h2>Rellene el formulario de inscripción</h2>
+                            {/* Aquí se aplica el tipo de letra 'Berlin Sans FB Demi' */}
+                            <h2 style={{ fontFamily: 'Copperplate Gothic Light' }}>RELLENE EL FORMULARIO DE INFORMACIÓN</h2>
                             <Aside></Aside>
                         </div>
                     </div>
